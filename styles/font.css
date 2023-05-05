@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'Room 205';
+    src: url("../fonts/Room 205.woff");
+}
+@font-face {
+	font-family: "Optima Cyr";
+	src: url("../fonts/optima-cyr.woff") format("woff"); 
+	font-weight: normal;
+}
+@font-face {
+	font-family: "Optima Bold";
+	src: url("../fonts/optima-bold.woff") format("woff"); 
+	font-weight: normal;
+}
