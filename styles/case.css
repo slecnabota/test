@@ -21,6 +21,14 @@
     grid-template-columns: repeat(2, 1fr);
     column-gap: 10px;
 }
+.cases a{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0.21em;
+    margin-top: 90px;
+    text-align: center;
+}
 @media(max-width: 1650px){
     .opening-wrapper>img{
         width: 600px;
@@ -45,6 +53,11 @@
         max-width: none;
         width: 100%;
     }
+    .cases a{
+        font-size: 13px;
+        line-height: 15px;
+        margin-top: 50px;
+    }
 }
 @media(max-width: 768px){
     .cases{
@@ -58,6 +71,11 @@
     }
     .cases-1{
         row-gap: 10px;
+    }
+    .cases a{
+        font-size: 10px;
+        line-height: 15px;
+        margin-top: 30px;
     }
 }
 @media(max-width: 426px){
