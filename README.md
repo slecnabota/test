@@ -50,8 +50,11 @@ npm run test:watch
 npm run release
 ```
 
-Quick Setup
-Add my-module dependency to your project
+## Quick Setup
+
+1. Add `my-module` dependency to your project
+
+```bash
 # Using pnpm
 pnpm add -D my-module
 
@@ -60,10 +63,16 @@ yarn add --dev my-module
 
 # Using npm
 npm install --save-dev my-module
-Add my-module to the modules section of nuxt.config.ts
+```
+
+2. Add `my-module` to the `modules` section of `nuxt.config.ts`
+
+```js
 export default defineNuxtConfig({
   modules: [
     'my-module'
   ]
 })
-That's it! You can now use My Module in your Nuxt app 
+```
+
+That's it! You can now use My Module in your Nuxt app ✨
