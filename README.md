@@ -77,15 +77,19 @@ export default defineNuxtConfig({
 
 Теперь вы готовы использовать компоненты UI Kit в вашем приложении Nuxt.
 
-### Примеры использования компонентов
+## Примеры использования компонентов
+
 AppBadge - отображает информационный бейдж. Настраивается через параметры, такие как размер, статус и стиль:
+
 #### AppBadge
+
 ```bash
  <AppBadge size="l" status="info" label="Status text" :isSecondary="true" />
 ```
 ![Badge](https://github.com/slecnabota/test/assets/85954194/31d33277-4548-432d-bb64-637ff0dc6098)
 
 #### AppButton
+
 AppButton - создает кнопку с возможностью выбора размера, типа заливки, цвета и надписи:
 ```bash
  <AppButton size="m" status="fill" color="main" label="Button label" />
