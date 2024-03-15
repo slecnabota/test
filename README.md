@@ -52,25 +52,25 @@ npm run release
 
 ## Quick Setup
 
-1. Add `my-module` dependency to your project
+1. Add `@toptom/uikit-nuxt` dependency to your project
 
 ```bash
 # Using pnpm
-pnpm add -D my-module
+pnpm add -D @toptom/uikit-nuxt
 
 # Using yarn
-yarn add --dev my-module
+yarn add --dev @toptom/uikit-nuxt
 
 # Using npm
-npm install --save-dev my-module
+npm install --save-dev @toptom/uikit-nuxt
 ```
 
-2. Add `my-module` to the `modules` section of `nuxt.config.ts`
+2. Add `@toptom/uikit-nuxt` to the `modules` section of `nuxt.config.ts`
 
 ```js
 export default defineNuxtConfig({
   modules: [
-    'my-module'
+    '@toptom/uikit-nuxt'
   ]
 })
 ```
