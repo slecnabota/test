@@ -79,6 +79,12 @@ That's it! You can now use My Module in your Nuxt app ✨
 
 
 ### Примеры использования компонентов
-
+Компонент AppBadge — это компонент Vue, который отображает бейдж с заданными параметрами, такими как размер, статус, метка и вторичный стиль отображения. Эти параметры настраиваются через пропсы компонента.
+Вот простой пример того, как вы можете использовать AppBadge в вашем проекте:
 #### AppBadge
+```bash
+ <AppBadge size="l" status="info" label="Status text" :isSecondary="true" />
+```
+![image](https://github.com/slecnabota/test/assets/85954194/33854416-7f66-4831-b8c9-286fe6f171bb)
+
 
