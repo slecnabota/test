@@ -24,7 +24,7 @@ TopTom Storybook - это интерактивная библиотека ком
 
 Для начала работы с проектом убедитесь, что у вас установлены Node.js и npm...
 
-## Установка
+## Development
 
 ```bash
 # Install dependencies
