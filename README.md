@@ -48,7 +48,7 @@ npm run test:watch
 
 # Release new version
 npm run release
-
+```
 
 Quick Setup
 Add my-module dependency to your project
