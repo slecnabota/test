@@ -27,13 +27,24 @@ TopTom Storybook - это интерактивная библиотека ком
 ## Установка
 
 ```bash
-# Клонирование репозитория и установка зависимостей
-git clone <ссылка на ваш репозиторий>
-cd путь_к_вашему_проекту
+# Install dependencies
 npm install
-npm install --save-dev @nuxt/typescript-build @nuxt/types sass sass-loader@10
 
-# Запуск проекта в режиме разработки и сборка для продакшена
+# Generate type stubs
+npm run dev:prepare
+
+# Develop with the playground
 npm run dev
-npm run build
-npm start
+
+# Build the playground
+npm run dev:build
+
+# Run ESLint
+npm run lint
+
+# Run Vitest
+npm run test
+npm run test:watch
+
+# Release new version
+npm run release
