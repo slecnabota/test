@@ -80,5 +80,5 @@ That's it! You can now use My Module in your Nuxt app ✨
 
 ### Примеры использования компонентов
 
-## AppBadge
+#### AppBadge
 
